@@ -37,6 +37,8 @@ describe 'collections practice' do
       return_array = ["scott", "ashley", "blake", "chris"]
 
       expect(swap_elements_from_to(array, 0, 2)).to eq(return_array)
+    end
+  end
 
   # Question 5
   describe '#reverse_array' do
