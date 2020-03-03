@@ -17,3 +17,11 @@ def swap_elements(array)
   array[2] = a
   array
 end
+
+def swap_elements_from_to(array, from, to)
+  a = array[1]
+  b = array[2]
+  array[1] = b
+  array[2] = a
+  array
+end
