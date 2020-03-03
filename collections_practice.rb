@@ -49,6 +49,6 @@ end
 
 def add_s(array)
   array.map.with_index do |item, i|
-    i == 1 ? item << 's' : item
+    i == 1 ? item : item << 's'
   end
 end
